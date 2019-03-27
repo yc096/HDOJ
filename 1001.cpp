@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 	int n;
-	while(cin>>n)
+	while(cin>>n&&n!=NULL)
 	{
 		//需要注意n*(n+1)可能会越界所以先除2 
 		if(n%2==0)
